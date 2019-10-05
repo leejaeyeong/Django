@@ -4,8 +4,8 @@
 #### 1. 가상환경 생성 및 실행  
 
  - 가상환경 생성  
-       python -m venv myvenv
-       # python -m venv 가상환경이름
+       `python -m venv myvenv
+        # python -m venv 가상환경이름`
        
  - 가상환경 실행 및 종료
        Source myvenv/Scripts/activate  # 가상환경 실행  
@@ -18,7 +18,7 @@
 
 #### 3. Dajngo 프로젝트 생성
  - 프로젝트 만들기  
-       django-admin startproject <projectname>
+       ```django-admin startproject <projectname>```
  - 서버 실행
        python manage.py runserver
  - 앱 만들기
