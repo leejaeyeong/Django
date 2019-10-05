@@ -5,6 +5,7 @@
 
  - 가상환경 생성  
        `python -m venv myvenv
+       
         # python -m venv 가상환경이름`
        
  - 가상환경 실행 및 종료
@@ -25,9 +26,11 @@
        python manage.py startapp <appname>
  - 앱 등록하기  
  django 앱을 사용하기 위해 settings.py INSTALLD_APPS 영역에 생성한 앱을 등록한다.  
-       INSTALLED_APPS = [ 
+       ```INSTALLED_APPS = [ 
+ 
               'myapp.apps.MyappConfig',
-       ]
+              
+       ]```
  - views.py 작성  
  예로 home이라는 함수를 정의. 요청이 왔을 때 home.html을 리턴한다.  
  MTV, CBV 등
