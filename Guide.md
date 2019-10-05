@@ -4,10 +4,10 @@
 #### 1. 가상환경 생성 및 실행  
 
  - 가상환경 생성
-   ```python
-   python -m venv myvenv  
-   # python -m venv 가상환경이름  
-   ```
+ ```python
+ python -m venv myvenv  
+ # python -m venv 가상환경이름  
+ ```
        
  - 가상환경 실행 및 종료
    ```python
@@ -19,7 +19,7 @@
  - 설치 및 삭제  
    ```python
    pip install dajngo #  장고 설치
-   pip uninstall django #  장고삭제  
+   pip uninstall django #  장고 삭제  
    ```
 
 #### 3. Dajngo 프로젝트 생성
@@ -50,7 +50,7 @@
    ```
  - url path 설정  
    ```python
-   improt myapp.views  # view에 있는 home 메소드와 url을 연결하기 위해
+   import myapp.views  # view에 있는 home 메소드와 url을 연결하기 위해
    urlaptterns = [
          path('',myapp.views.home,name="home"),
          # ''와 같은 url 요청이 발생할 경우 myapp.views에 home 메소드를 호출
