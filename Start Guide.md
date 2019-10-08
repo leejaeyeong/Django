@@ -43,7 +43,7 @@
    ]  
    ```
  - views.py 작성  
- 예로 home이라는 함수를 정의. 요청이 왔을 때 home.html을 리턴한다. (MTV, CBC 등)
+ 예로 home이라는 함수를 정의. 요청이 왔을 때 home.html을 리턴한다. (MBV, CBV 등)
    ```python
    def home(request) :
        return render(request,'home.html')  
