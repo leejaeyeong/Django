@@ -56,3 +56,13 @@
          # ''와 같은 url 요청이 발생할 경우 myapp.views에 home 메소드를 호출
    ]  
    ```
+ 
+ ### 3. Migrations delete  
+ - cmmand
+   ```python
+   find . -path "*/migrations/*.py" -not -name "__init__.py" -delete
+   find . -path "*/migrations/*.pyc" -delete
+   ```
+
+   
+   
